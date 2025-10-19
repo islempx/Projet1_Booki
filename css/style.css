@@ -409,17 +409,12 @@ height: 250px;
 *         Footer                    *
 ************************************/
 
-
-
 #footer-list{
     background: #f2f2f2;
     display: flex;
    padding: 30px;
     height: 163px;
-justify-content: space-between;
-    
-}
-
+justify-content: space-between;}
 
 .footer-column{
 
@@ -452,21 +447,13 @@ footer #footer-list .footer-column li{
    font-weight: 700;
     font-size: 22px;
     margin-left: 40px;
-
-
-
-
-
 }
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-
-
    .main-container {
   width: 100%;
   max-width: 1024px;
@@ -474,14 +461,9 @@ footer #footer-list .footer-column li{
   box-sizing: border-box;
 }
 
-
-.link-box-activités li {
-
-   padding: 0px;
-
-
+  .link-box-activités li {
+ padding: 0px; 
 }
-
 
   .hebergements-and-populaires {
     flex-direction: column;
@@ -525,51 +507,36 @@ footer #footer-list .footer-column li{
 
 
 #Affichez-plus{
-
-
 margin-top: 30px;
-
-
-
 }
+
 #filter-container {
-    display: inline;
-    
+ display: inline;   
 }
-
 
 #filter-container p{
-
 margin-bottom: 20px;
-
-
 }
-#info-container {
-    
+
+#info-container { 
     margin-top: 40px;
 }
 
 #buttons-filter-container {
  display: flex;
-
 }
-
 
  #activités-card {
     display: flex;
     justify-content: space-between;  /* écarte les cartes */
     gap: 20px;                       /* espace fixe entre elles */
     flex-wrap: nowrap;               /* elles restent sur une seule ligne */
-  }
+}
 
  #activités-card .card{
   width: 100%;
 height: 250px;
   padding: 0px;
-
-
-
-
 }
 
 
@@ -584,12 +551,9 @@ height: 250px;
 
 
 footer{
-
-
      width: 100%;
      height: 35vh;
-     background-color: #f2f2f2;
-       
+     background-color: #f2f2f2;    
 }
 
 
@@ -606,22 +570,11 @@ footer{
     height: 163px;
     margin-right: 0px;
 }
-
-
-
-
-
-
 .fa-magnifying-glass{
-
- display: none;
-
+display: none;
 }
 
 }
-
-
-
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -632,30 +585,17 @@ footer{
        
     }
 .everything-except-navbar{
-
-
-    padding: 5%;
+ padding: 5%;
 }
-
-
-
 
 #info{
-
-   padding: 15px;
-
-
-
+ padding: 15px;
 }
 
-
-
-     header {
-        display: flex;
-
-        
-        align-items: center;
-        flex-direction: column;
+header {
+display: flex;      
+align-items: center;
+flex-direction: column;      
     }
 .Hébergements-clickOn {
     color: #0065fc;
